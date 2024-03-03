@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+label{
+    display: block;
+    color: white;
+    font-size: 22px;
+    padding: 3px 0px 3px 0px;
+}
+.registrationForm{
+    max-width: 430px;
+    border: 2px solid #89c9f3;
+    box-shadow: 3px 3px 5px #89c9f3,-3px -3px 5px #89c9f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#form{
+    padding: 30px;
+}
+.inputfield{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 100%;
+}
+.button{
+    width: 100%;
+    margin-top: 18px;
+}
+.btn{
+    color: white;
+    background-color: #0c8fe6;
+    font-size: 19px;
+    padding: 4px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.other{
+    margin-top: 15px;
+    width: 100%;
+}
+.other .already{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.other .else a{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.else a:hover{
+    text-decoration: underline;
+}
+#nameError,#emailError,#passwordError,#ConfirmpasswordError{
+    color: lightgreen;
+    padding: 2px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.nameinput,.emailinput,.passwordinput,.confirmpassword{
+    position: relative;
+}
+.i{
+    position: absolute;
+    bottom: 32px;
+    right: 10px;
+}
+.mark{
+    font-size: 17px;
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+}
